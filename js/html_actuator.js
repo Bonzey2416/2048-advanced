@@ -24,13 +24,22 @@ HTMLActuator.prototype.actuate = function (grid, metadata) {
     self.updateScore(metadata.score);
     self.updateBestScore(metadata.bestScore);
 
-    if (metadata.over) self.message(false); // You lose
-    if (metadata.won) self.message(true); // You win!
+    if (metadata.terminated) {
+      if (metadata.over) {
+        self.message(false); // You lose
+      } else if (metadata.won) {
+        self.message(true); // You win!
+      }
+    }
+
   });
 };
 
 // Continues the game (both restart and keep playing)
-HTMLActuator.prototype.continue = function () {
+HTMLActuator.prototype.continue = function (restart) {
+  if (typeof ga !== "undefined") {
+    ga("send", "event", window.gameName || "game", restart ? "restart" : "keep playing");
+  }
   this.clearMessage();
 };
 
@@ -46,14 +55,28 @@ HTMLActuator.prototype.addTile = function (tile) {
   var wrapper   = document.createElement("div");
   var inner     = document.createElement("div");
   var position  = tile.previousPosition || { x: tile.x, y: tile.y };
-  positionClass = this.positionClass(position);
+  var positionClass = this.positionClass(position);
 
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
+  var value = tile.value;
+
+  if (value > 2048) classes.push("tile-super");
+  if (value > 32768) {
+    (function() {
+      var i = 1, n = value;
+      while (n > 2) {
+        i++;
+        n /= 2;
+      }
+      value = '2^' + i;
+    })();
+  }
+
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  inner.textContent = tile.type === 'number' ? tile.value : '*' + tile.value;
+  inner.textContent = tile.type === 'number' ? value : '×' + value;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -118,6 +141,9 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
   var message = won ? "You win!" : "Game over!";
+  if (typeof ga !== "undefined") {
+    ga("send", "event", window.gameName || "game", "end", type, this.score);
+  }
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
