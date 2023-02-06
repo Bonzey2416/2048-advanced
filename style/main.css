@@ -1,10 +1,18 @@
 @import url(fonts/clear-sans.css);
+@font-face {font-family: "Google Sans"; font-weight: normal; font-style: normal; src: url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.eot"); src: url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.woff") format("woff"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/000be6a5acfcd4e4a425e9f1bb6c80f0.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: normal; font-style: italic; src: url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.eot"); src: url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.woff") format("woff"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/69b6dafcd18436d717d1c4a71c4eb6b1.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: 500; font-style: normal; src: url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.eot"); src: url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.woff") format("woff"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0e3f1c9efebea39cb811fbb86c2fc53f.svg#Google Sans Medium") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: 500; font-style: italic; src: url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.eot"); src: url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.woff") format("woff"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d2e7466051a55d11378042f258e951c1.svg#Google Sans Medium") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: bold; font-style: normal; src: url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.eot"); src: url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.woff") format("woff"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans"; font-weight: bold; font-style: italic; src: url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.eot"); src: url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.woff") format("woff"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b51a2098e785c5323cb72f371ca0cde7.svg#Google Sans") format("svg"); }
+@font-face {font-family: "Google Sans Text"; font-weight: normal; font-style: normal; src: url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.eot"); src: url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/41cdafd19e156a1f74759f9c88b878ff.svg#Google Sans Text") format("svg"); }
+@font-face {font-family: "Google Sans Text"; font-weight: bold; font-style: normal; src: url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.eot"); src: url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a8dc683d1b4db924a75e5a0e3ed8410.svg#Google Sans Text Medium") format("svg"); }
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #cceeff;
+  color: #336688;
+  font-family: "Google Sans Text", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
@@ -17,7 +25,8 @@ body {
 
 h1.title {
   font-size: 80px;
-  font-weight: bold;
+  font-family: "Google Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
   margin: 0;
   display: block;
   float: left; }
@@ -53,34 +62,37 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #99ddf8;
   padding: 15px 25px;
+  font-family: "Google Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 3px;
-  color: white;
+  color: #336688;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
     top: 10px;
+		font-family: "Google Sans Text", "Helvetica Neue", Arial, sans-serif;
     left: 0;
     text-transform: uppercase;
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #44aacc; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
+		font-family: "Google Sans", "Helvetica Neue", Arial, sans-serif;
     color: red;
     font-size: 25px;
     line-height: 25px;
-    font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    font-weight: 500;
+    color: #44aacc;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -111,7 +123,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #d8d4d0;
+  border-bottom: 1px solid #44aacc;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -149,8 +161,8 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
-  border-radius: 6px;
+  background: #44aacc;
+  border-radius: 16px;
   width: 500px;
   height: 500px;
   -webkit-box-sizing: border-box;
@@ -163,7 +175,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(218, 248, 255, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -174,7 +186,8 @@ hr {
     animation-fill-mode: both; }
     .game-container .game-message p {
       font-size: 60px;
-      font-weight: bold;
+			font-family: "Google Sans", "Helvetica Neue", Arial, sans-serif;
+      font-weight: 500;
       height: 60px;
       line-height: 60px;
       margin-top: 222px; }
@@ -183,19 +196,19 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
-      border-radius: 3px;
+      background: #44aacc;
+      border-radius: 16px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #cceeff;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
-      color: #f9f6f2; }
+      background: rgba(255, 204, 0, 0.5);
+      color: #ffffee; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -219,7 +232,7 @@ hr {
   height: 106.25px;
   margin-right: 15px;
   float: left;
-  border-radius: 3px;
+  border-radius: 12px;
   background: rgba(238, 228, 218, 0.35); }
   .grid-cell:last-child {
     margin-right: 0; }
@@ -306,11 +319,13 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
-    background: #eee4da;
+    border-radius: 12px;
+    background: #cceeff;
     text-align: center;
-    font-weight: bold;
+		font-family: "Google Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
     z-index: 10;
+		color: #336688;
     font-size: 55px; }
 /* Powers of 2 */
   /*
@@ -325,207 +340,209 @@ hr {
     that are 10 digits long and above.
   */
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #cceeff;
+    box-shadow: 0 0 10px 0px rgba(0, 204, 255, 0), inset 0 0 0 0px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #bbeeff;
+    box-shadow: 0 0 12px 1px rgba(0, 204, 255, 0.01), inset 0 0 0 0.1px rgba(255, 255, 255, 0.005); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: #99ddf3; 
+    box-shadow: 0 0 14px 2px rgba(0, 204, 255, 0.03), inset 0 0 0 0.2px rgba(255, 255, 255, 0.015); }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background: #77ccee;
+    box-shadow: 0 0 16px 3px rgba(0, 204, 255, 0.06), inset 0 0 0 0.3px rgba(255, 255, 255, 0.03); }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    color: #cceeff;
+    background: #55bbdd;
+    box-shadow: 0 0 18px 4px rgba(0, 204, 255, 0.1), inset 0 0 0 0.4px rgba(255, 255, 255, 0.05); }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    color: #cceeff;
+    background: #44aacc;
+    box-shadow: 0 0 20px 5px rgba(0, 204, 255, 0.15), inset 0 0 0 0.5px rgba(255, 255, 255, 0.075); }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    color: #cceeff;
+    background: #3f88aa;
+    box-shadow: 0 0 22px 6px rgba(0, 204, 255, 0.21), inset 0 0 0 0.6px rgba(255, 255, 255, 0.10*);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    color: #cceeff;
+    background: #336688;
+    box-shadow: 0 0 22px 6px rgba(0, 204, 255, 0.21), inset 0 0 0 0.6px rgba(255, 255, 255, 0.105);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    color: #cceeff;
+    background: #224466;
+    box-shadow: 0 0 24px 7px rgba(0, 204, 255, 0.28), inset 0 0 0 0.7px rgba(255, 255, 255, 0.14);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    color: #cceeff;
+    background: #203355;
+    box-shadow: 0 0 26px 8px rgba(0, 204, 255, 0.36), inset 0 0 0 0.8px rgba(255, 255, 255, 0.18);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 18px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    color: #cceeff;
+    background: #1f2544;
+    box-shadow: 0 0 28px 9px rgba(0, 204, 255, 0.36), inset 0 0 0 0.9px rgba(255, 255, 255, 0.18);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 18px; } }
   .tile.tile-4096 .tile-inner {
-    color: #f9f6f2;
-    background: #efb900;
-    box-shadow: 0 0 30px 10px rgba(255, 214, 69, 0.61), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    color: #cceeff;
+    background: #1e1f33;
+    box-shadow: 0 0 30px 10px rgba(0, 204, 255, 0.45), inset 0 0 0 1px rgba(255, 255, 255, 0.225);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-4096 .tile-inner {
-        font-size: 15px; } }	
+        font-size: 18px; } }	
   .tile.tile-8192 .tile-inner {
-    color: #f9f6f2;
-    background: #ef8400;
-    box-shadow: 0 0 30px 10px rgba(255, 167, 69, 0.9), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    color: #cceeff;
+    background: #1e1e25;
+    box-shadow: 0 0 30px 10px rgba(0, 204, 255, 0.55), inset 0 0 0 1px rgba(255, 255, 255, 0.275);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-8192 .tile-inner {
-        font-size: 15px; } }
+        font-size: 18px; } }
   .tile.tile-16384 .tile-inner {
-    color: #f9f6f2;
-    background: #ef4300;
-    box-shadow: 0 0 30px 10px rgba(255, 100, 69, 0.98), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    color: #eeeeee;
+    background: #1e1e1e;
+    box-shadow: 0 0 30px 10px rgba(0, 204, 255, 0.66), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-16384 .tile-inner {
-        font-size: 10px; } }
+        font-size: 15px; } }
   .tile.tile-32768 .tile-inner {
-    color: #f9f6f2;
-    background: #ef0000;
+    color: #ffeeee;
+    background: #661e1e;
     box-shadow: 0 0 30px 10px rgba(255, 69, 69, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-32768 .tile-inner {
-        font-size: 10px; } }
+        font-size: 15px; } }
   .tile.tile-65536 .tile-inner {
-    color: #f9f6f2;
+    color: #ffeeee;
     background: #ff0000;
     box-shadow: 0 0 30px 10px rgba(255, 0, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-65536 .tile-inner {
-        font-size: 10px; } }
+        font-size: 15px; } }
   .tile.tile-131072 .tile-inner {
-    color: #f9f6f2;
+    color: #ffddee;
     background: #ff0056;
     box-shadow: 0 0 30px 10px #ff0056, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 25px; }
     @media screen and (max-width: 520px) {
       .tile.tile-131072 .tile-inner {
-        font-size: 8px; } }
+        font-size: 12px; } }
   .tile.tile-262144 .tile-inner {
-    color: #f9f6f2;
+    color: #ffddee;
     background: #ff0087;
     box-shadow: 0 0 30px 10px #ff0087, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 25px; }
     @media screen and (max-width: 520px) {
       .tile.tile-262144 .tile-inner {
-        font-size: 8px; } }
+        font-size: 12px; } }
   .tile.tile-524288 .tile-inner {
-    color: #f9f6f2;
+    color: #ffddff;
     background: #ff00a9;
     box-shadow: 0 0 30px 10px #ff00a9, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 25px; }
     @media screen and (max-width: 520px) {
       .tile.tile-524288 .tile-inner {
-        font-size: 8px; } }
+        font-size: 12px; } }
   .tile.tile-1048576 .tile-inner {
-    color: #f9f6f2;
+    color: #ffccff;
     background: #ff00c8;
     box-shadow: 0 0 30px 10px #ff00c8, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1048576 .tile-inner {
-        font-size: 5px; } }
+        font-size: 10px; } }
   .tile.tile-2097152 .tile-inner {
-    color: #f9f6f2;
+    color: #ffccff;
     background: #ff00ff;
     box-shadow: 0 0 30px 10px #ff00ff, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2097152 .tile-inner {
-        font-size: 5px; } }
+        font-size: 10px; } }
   .tile.tile-4194304 .tile-inner {
-    color: #f9f6f2;
+    color: #336600;
     background: #a6ff00;
     box-shadow: 0 0 30px 10px #a9ff00, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-4194304 .tile-inner {
-        font-size: 5px; } }
+        font-size: 10px; } }
   .tile.tile-8388608 .tile-inner {
-    color: #f9f6f2;
+    color: #660088;
     background: #ed80f1;
     box-shadow: 0 0 30px 10px #f9a8ff, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 21px; }
     @media screen and (max-width: 520px) {
       .tile.tile-8388608 .tile-inner {
-        font-size: 5px; } }
+        font-size: 10px; } }
   .tile.tile-16777216 .tile-inner {
-    color: #f9f6f2;
+    color: #cceeff;
     background: #00acdc;
     box-shadow: 0 0 30px 10px #00acdc, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 18px; }
     @media screen and (max-width: 520px) {
       .tile.tile-16777216 .tile-inner {
-        font-size: 5px; } }
+        font-size: 9px; } }
   .tile.tile-33554432 .tile-inner {
-    color: #f9f6f2;
+    color: #ffddff;
     background: #c40080;
     box-shadow: 0 0 30px 10px #df0081, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 18px; }
     @media screen and (max-width: 520px) {
       .tile.tile-33554432 .tile-inner {
-        font-size: 5px; } }
+        font-size: 9px; } }
   .tile.tile-67108864 .tile-inner {
-    color: #776e65;
+    color: #006622;
     background: #53ff80;
     box-shadow: 0 0 30px 10px #61ff89, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 18px; }
     @media screen and (max-width: 520px) {
       .tile.tile-67108864 .tile-inner {
-        font-size: 5px; } }
+        font-size: 9px; } }
   .tile.tile-134217728 .tile-inner {
-    color: #f9f6f2;
+    color: #cceeff;
     background: #123456;
     box-shadow: 0 0 30px 10px #654321, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 16px; }
     @media screen and (max-width: 520px) {
       .tile.tile-134217728 .tile-inner {
-        font-size: 5px; } }
+        font-size: 8px; } }
   .tile.tile-268435456 .tile-inner {
-    color: #353535;
+    color: #5500aa;
     background: #b780ff;
     box-shadow: 0 0 30px 10px #b180ff, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 16px; }
     @media screen and (max-width: 520px) {
       .tile.tile-268435456 .tile-inner {
-        font-size: 5px; } }
+        font-size: 8px; } }
   .tile.tile-536870912 .tile-inner {
-    color: #f9f6f2;
+    color: #880044;
     background: #ff80c6;
     box-shadow: 0 0 30px 10px #ff60a9, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 16px; }
     @media screen and (max-width: 520px) {
       .tile.tile-536870912 .tile-inner {
-        font-size: 5px; } }
+        font-size: 8px; } }
   .tile.tile-1073741824 .tile-inner {
     color: #f9f6f2;
     background: #7f007f;
@@ -1636,8 +1653,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
-    border-radius: 6px;
+    border-radius: 12px;
     width: 280px;
     height: 280px;
     -webkit-box-sizing: border-box;
@@ -1650,7 +1666,6 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(238, 228, 218, 0.5);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -1661,7 +1676,6 @@ hr {
       animation-fill-mode: both; }
       .game-container .game-message p {
         font-size: 60px;
-        font-weight: bold;
         height: 60px;
         line-height: 60px;
         margin-top: 222px; }
@@ -1670,19 +1684,14 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #8f7a66;
-        border-radius: 3px;
+        border-radius: 8px;
         padding: 0 20px;
         text-decoration: none;
-        color: #f9f6f2;
         height: 40px;
         line-height: 42px;
         margin-left: 9px; }
         .game-container .game-message a.keep-playing-button {
           display: none; }
-      .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
-        color: #f9f6f2; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -1706,8 +1715,8 @@ hr {
     height: 57.5px;
     margin-right: 10px;
     float: left;
-    border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    border-radius: 8px;
+  }
     .grid-cell:last-child {
       margin-right: 0; }
 
